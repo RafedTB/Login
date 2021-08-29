@@ -7,7 +7,7 @@
 	$number = $_POST['number'];
 
 	// Database connection
-	$conn = new mysqli('sql4.freesqldatabase.com','sql4433501','','kYQC8p4Dhv');
+	$conn = new mysqli('sql4.freesqldatabase.com','sql4433501','','kYQC8p4Dhv','sql4433501');
 	if($conn->connect_error){
 		echo "$conn->connect_error";
 		die("Connection Failed : ". $conn->connect_error);
